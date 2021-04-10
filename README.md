@@ -3,6 +3,8 @@
 ## Linear Regression to Predict MPG
 ![Alt Text](https://github.com/abbys114/MechaCar_Statistical_Analysis/blob/main/Screen%20Shot%202021-04-08%20at%2012.54.36%20PM.png)
 
+The variables that provide a non-random amount of variance to the mpg values in the dataset are vehicle weight, spoiler angle, and AWD.  The slope in this model is not zero because R-squared does not equal zero, which would mean there was no correlation.  In this case, the adjusted R-squared value equals .6825, meaning there is a moderate positive correlation.  This linear model is helpful with estimating mpg of MechaCar prototypes, but should be further looked into to find a better model with possible other factors.
+
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Is the slope of the linear model considered to be zero? Why or why not?
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
