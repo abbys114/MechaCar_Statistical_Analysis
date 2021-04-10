@@ -22,6 +22,8 @@ The design specifications for the MechaCar suspension coils dictate that the var
 ![Alt Text](https://github.com/abbys114/MechaCar_Statistical_Analysis/blob/main/Screen%20Shot%202021-04-09%20at%2010.18.15%20PM.png)
 ![Alt Text](https://github.com/abbys114/MechaCar_Statistical_Analysis/blob/main/Screen%20Shot%202021-04-09%20at%2010.18.54%20PM.png)
 
+The t-test results show that we should reject the null hypothesis for Lot 1 and 2, but keep the null hypothesis for Lot 3. Since the p-value is greater then .05, we can reject the null hypothesis for Lot 1 and 2.  This means that the weight capacities of the suspension coils are not consistent between all the lots.
+
 summarize your interpretation and findings for the t-test results
 
 ## Study Design: MechaCar vs Competition
@@ -32,3 +34,4 @@ What is the null hypothesis or alternative hypothesis?
 What statistical test would you use to test the hypothesis? And why?
 What data is needed to run the statistical test?
 
+Using statistics, we can compare MechaCar against the competition.  For our study, we are going to compare cost, fuel efficiency, and safety ratings. The cost will be compared in dollars, the fuel efficiency will be measured in miles per gallons, and the safety rating will be a rating out of five stars.  In this study, our null hypothesis wii be that cost, fuel efficiency, and safety ratings are the same between MechaCar and its competition.  We would use a T-test to compare the cost and fuel efficency amongst the competitors and a chi-square test to compare safety ratings becasue it is categorical data.  For running the statistical test, we will need data  on cost, fuel efficiency, and safety ratings for MechaCar and its competitors.
